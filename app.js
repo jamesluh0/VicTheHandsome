@@ -21,12 +21,12 @@ $(document).ready(function(){
 				}
 				case "about": 
 				{
-					console.log('a');
+					$('.content').load('about.html');
 					break;
 				}
 				case "love": 
 				{
-					console.log('l');
+					$('.content').load('vicvicvic.html');
 					break;
 				}
 			}
