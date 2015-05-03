@@ -27,7 +27,7 @@ h1{
 
 }
 
-p{
+#intro{
   font-family: 'Bitter', serif;
   top: 240px;
   right: 18%;
@@ -83,20 +83,21 @@ li:hover{
 	z-index: 1;
 }
 
-#gallery_wrap{
+.gallery_wrap{
 	position: absolute;
 	width:70%
 	margin: 0 auto;
 	text-align:center
 }
 
-#gallery_wrap img{
+.gallery_wrap img{
 	display: inline;
 	width: 20%;
 	margin: 5%;
 }
 
 .close{
+	position: absolute;
 	top:0;
 	right: 0;
 	margin:0;
@@ -113,4 +114,17 @@ li:hover{
     -webkit-transition:width all 0.3s;
     -o-transition:width all 0.3s; 
 	transition:all 0.3s;
+}
+
+#v{
+	width: 30%;
+	margin:2.5% 15%;
+}
+
+#aboutv{
+	position: absolute;
+	right: 15%;
+	top: 30%;
+	color: #FFF;
+	font-size: 40px;
 }
