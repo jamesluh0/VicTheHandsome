@@ -53,12 +53,12 @@ $(document).ready(function(){
 							}
 							case "about": 
 							{
-								console.log('a');
+								$('.content').load('about.html');
 								break;
 							}
-							case "love": 
+							case "vicvicvic": 
 							{
-								console.log('l');
+								$('.content').load('vicvicvic.html');
 								break;
 							}
 						}
