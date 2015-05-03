@@ -7,8 +7,8 @@ $(document).ready(function(){
 		
 		if(ifClick==0)
 		{			
-			$('.wrap').fadeIn(500);
-			$('.content').fadeIn(1000);
+			$('.wrap').fadeIn(250);
+			$('.content').fadeIn(500);
 			ifClick = 1;
 			target_last = event.target;
 			switch(event.target.id)
@@ -38,8 +38,8 @@ $(document).ready(function(){
 			console.log(target_last);
 			if(this == target_last)
 				{
-					$('.wrap').fadeOut(500);
-					$('.content').fadeOut(1000);
+					$('.wrap').fadeOut(250);
+					$('.content').fadeOut(500);
 				}
 			else
 					{
@@ -68,8 +68,8 @@ $(document).ready(function(){
 	})
 
 	$('body').on('click' , '.close', function(){
-			$('.wrap').fadeOut(500);
-			$('.content').fadeOut(1000);
+			$('.wrap').fadeOut(250);
+			$('.content').fadeOut(500);
 			ifClick = 0;
 	})
 });
