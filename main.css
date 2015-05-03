@@ -1,0 +1,116 @@
+html{
+	height: 100%;
+}
+
+body {
+	background: url(images/vic.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0px;
+	padding: 0px;
+	z-index: -1;
+	height:100%;
+}
+
+h1{
+	position: absolute;
+	font-family: 'Dancing Script', cursive;
+	font-size: 390px;
+	color: rgb(187, 46, 46);
+	right: 17%;
+	margin:0;
+	line-height: 0.5em;
+	cursor: default;
+	z-index: inherit;
+
+}
+
+p{
+  font-family: 'Bitter', serif;
+  top: 240px;
+  right: 18%;
+  position: absolute;
+  font-size: 20px;
+  cursor: default;
+  z-index: inherit;
+}
+
+ul{
+	position: absolute;
+	bottom:20px;
+	left: 20px;
+	color: white;
+	z-index: 1;
+}
+
+li{
+	display: inline;
+	font-size:30px;
+	margin-right:20px;
+	border-top:2px solid gray;
+	cursor: pointer;
+	-moz-transition:width all 0.4s; 
+    -webkit-transition:width all 0.4s;
+    -o-transition:width all 0.4s; 
+	transition:all 0.4s;
+}
+
+li:hover{
+	
+	border-top:2px solid white;
+}
+
+.wrap{
+	width:100%;
+	height:100%;
+	background-color: black;
+	opacity: 0.5;
+	display: none;
+	z-index: 0;
+}
+
+.content{
+	position: absolute;
+	width: 80%;
+	height: 80%;
+	top:5%;
+	left:0;
+	margin: 0px 10%;
+	background:rgba(0,0,0,0.8);
+	display: none;
+	z-index: 1;
+}
+
+#gallery_wrap{
+	position: absolute;
+	width:70%
+	margin: 0 auto;
+	text-align:center
+}
+
+#gallery_wrap img{
+	display: inline;
+	width: 20%;
+	margin: 5%;
+}
+
+.close{
+	top:0;
+	right: 0;
+	margin:0;
+	color:gray;
+	border: 1px solid gray;
+	font-family: "helvetica";
+	cursor: pointer;
+}
+
+.close:hover{
+	color: white;
+	border-color: white;
+	-moz-transition:width all 0.3s; 
+    -webkit-transition:width all 0.3s;
+    -o-transition:width all 0.3s; 
+	transition:all 0.3s;
+}
