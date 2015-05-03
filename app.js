@@ -40,6 +40,7 @@ $(document).ready(function(){
 				{
 					$('.wrap').fadeOut(250);
 					$('.content').fadeOut(500);
+					$('.content').load('vicvicvic.html');
 				}
 			else
 					{
@@ -70,6 +71,7 @@ $(document).ready(function(){
 	$('body').on('click' , '.close', function(){
 			$('.wrap').fadeOut(250);
 			$('.content').fadeOut(500);
+			$('.content').load('vicvicvic.html');
 			ifClick = 0;
 	})
 });
