@@ -128,4 +128,5 @@ li:hover{
 	color: #FFF;
 	font-size: 40px;
 	line-height: 1.6em;
+	cursor: default;
 }

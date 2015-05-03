@@ -17,6 +17,12 @@ $(document).ready(function(){
 				case "gallery": 
 				{
 					$('.content').load('gallery.html');
+					$(".content").ajaxStart(function(){
+					$(this).text("資料讀取中...");
+					});
+					$(".content").ajaxStop(function(){
+					$(this).text();
+});
 					break;
 				}
 				case "about": 
